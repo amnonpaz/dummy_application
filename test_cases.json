@@ -1,0 +1,8 @@
+[
+    { "name": "Parameters too few", "parameters": "", "result": "fail"},
+    { "name": "Parameters too many", "parameters": "xxx yyy", "result": "fail"},
+    { "name": "Wrong parameters", "parameters": "--xxx", "result": "fail"},
+    { "name": "Help", "parameters": "--help", "result": "PASS"},
+    { "name": "Parameter too long", "parameters": "12345678901234567890123", "result": "fail"},
+    { "name": "Simple printout", "parameters": "PassingTest", "result": "pass"}
+]
